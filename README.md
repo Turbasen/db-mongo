@@ -24,9 +24,11 @@ Docker is now watching for changes and will run the test suite automatically.
 
 ## Usage
 
-Connects automatically using `MONGO_URI`, or `MONGO_PORT_27017_TCP_ADDR` +
-`MONGO_PORT_27017_TCP_PORT` environment variables, or default to `mongo` +
-`27017`.
+Connects automatically to mongoDB using the following configurations:
+
+* `MONGO_URI`
+* `MONGO_PORT_27017_TCP_ADDR` and `MONGO_PORT_27017_TCP_PORT`
+* Defaults to `mongo` and `27017`
 
 ```js
 const mongo = require('mongo');
@@ -36,4 +38,4 @@ mongo.on('ready', () => {
 });
 ```
 
-## [MIT lisenced](https://github.com/Turbasen/Auth/blob/master/LICENSE)
+## [MIT lisenced](https://github.com/Turbasen/db-mongo/blob/master/LICENSE)
