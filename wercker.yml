@@ -3,7 +3,6 @@ box: node:argon
 build:
   services:
     - mongo:3.0
-    - redis:3
 
   steps:
     - script:
