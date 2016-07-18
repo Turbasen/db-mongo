@@ -17,6 +17,7 @@ const MongoWrapper = function MongoWrapper(uri) {
     };
 
     [
+      'arrangementer',
       'bilder',
       'grupper',
       'områder',

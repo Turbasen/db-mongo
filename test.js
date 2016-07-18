@@ -14,6 +14,7 @@ describe('mongo', () => {
     assert(mongo.api.users instanceof mongodb.Collection);
 
     [
+      'arrangementer',
       'bilder',
       'grupper',
       'områder',
