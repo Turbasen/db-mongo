@@ -16,7 +16,13 @@ const MongoWrapper = function MongoWrapper(uri) {
       users: database.collection('api.users'),
     };
 
-    ['turer', 'steder', 'områder', 'bilder', 'grupper'].forEach((type) => {
+    [
+      'bilder',
+      'grupper',
+      'områder',
+      'steder',
+      'turer',
+    ].forEach((type) => {
       this[type] = database.collection(type);
     });
 

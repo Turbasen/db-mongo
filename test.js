@@ -13,7 +13,13 @@ describe('mongo', () => {
 
     assert(mongo.api.users instanceof mongodb.Collection);
 
-    ['turer', 'steder', 'områder', 'bilder', 'grupper'].forEach((type) => {
+    [
+      'bilder',
+      'grupper',
+      'områder',
+      'steder',
+      'turer',
+    ].forEach((type) => {
       assert(mongo[type] instanceof mongodb.Collection);
     });
   });
