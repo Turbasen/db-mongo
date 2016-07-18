@@ -17,6 +17,7 @@ describe('mongo', () => {
       'arrangementer',
       'bilder',
       'grupper',
+      'lister',
       'områder',
       'steder',
       'turer',

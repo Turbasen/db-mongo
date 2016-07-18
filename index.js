@@ -20,6 +20,7 @@ const MongoWrapper = function MongoWrapper(uri) {
       'arrangementer',
       'bilder',
       'grupper',
+      'lister',
       'områder',
       'steder',
       'turer',
