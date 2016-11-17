@@ -46,7 +46,7 @@
     "istanbul": "^0.4.4",
     "mocha": "^2.5.3",
     "nsp": "^2.5.0",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^6.3.2"
   },
   "engines": {
     "node": ">=4.0.0"
